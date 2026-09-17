@@ -1,58 +1,98 @@
-# Hi there, I'm Mohammadreza Akhlaghi (Max) 👋
+# Mohammadreza Akhlaghi
 
-I am an independent **Quantitative Researcher** specializing in the intersection of **Financial Econometrics** and **Deep Sequence Learning**. With an academic foundation in Financial Management and advanced postgraduate coursework in Data Science (University of Verona), I build high-performance, GPU-accelerated pipelines for financial time series forecasting, volatility modeling, and risk-aware backtesting.
+### Financial Machine Learning & Econometrics Researcher
 
----
+I work at the intersection of **financial econometrics, high-frequency financial time series, and machine learning**, with a focus on robust and leakage-free empirical modeling.
 
-### 📊 Key Research & Framework Highlights
+My current research explores how deep sequence architectures can model noisy, non-stationary financial time series and how model performance changes across different volatility and market regimes.
 
-My research focuses on developing robust, leakage-free pipelines that can extract predictive structures from highly noisy, non-stationary intraday financial data (XAUUSD, Forex, and Crypto).
+## Research Interests
 
-*   **GPU-Accelerated Data Engineering:** Utilizing **CuPy** to bypass CPU bottlenecks, enabling high-speed rolling calculations (volatility, technical indicators, and custom market regimes) across millions of high-frequency data rows.
-*   **Deep Sequence Modeling:** Implementing state-of-the-art architectures in **PyTorch**—including **TimesNet**, **TCN**, **Transformers**, and recurrent models (LSTM/GRU)—to capture multi-periodicity and long-range temporal dependencies in financial series.
-*   **Causal Risk-Aware Backtesting:** Architecting fractal-based causal Stop-Loss/Take-Profit labeling engines and dynamic ATR-based position-sizing simulators to enforce realistic trading constraints without look-ahead bias.
+- Financial Machine Learning
+- Financial Econometrics
+- High-Frequency Financial Time Series
+- Deep Sequence Modeling
+- Volatility and Regime Modeling
+- Risk-Aware Forecasting
+- Leakage-Free / Causal Evaluation
+- Machine Learning for Financial Markets
 
-*Note: My comprehensive 50-page quantitative research monograph outlining these methodologies on a 12-year 5-minute XAUUSD dataset is available upon request.*
+## Current Research
 
----
+### High-Frequency Financial Forecasting
 
-### 🛠️ Technologies & Skills
+I study 5-minute XAUUSD financial time series using chronological and walk-forward evaluation frameworks.
 
-<table>
-  <tr>
-    <td valign="top" width="33%">
-      <strong>Quantitative Finance</strong><br>
-      • Financial Econometrics<br>
-      • Volatility & GARCH Modeling<br>
-      • Regime Detection<br>
-      • Risk-Aware Backtesting<br>
-      • Triple-Barrier Method Logics
-    </td>
-    <td valign="top" width="33%">
-      <strong>Machine & Deep Learning</strong><br>
-      • PyTorch & TorchScript<br>
-      • TimesNet & PatchTST<br>
-      • Transformers & TCN<br>
-      • LSTM & GRU<br>
-      • XGBoost & LightGBM
-    </td>
-    <td valign="top" width="33%">
-      <strong>HPC & Data Engineering</strong><br>
-      • Python & NumPy<br>
-      • CuPy (GPU Acceleration)<br>
-      • Pandas & Polars<br>
-      • Streamlit (Dashboards)<br>
-      • Git & Version Control
-    </td>
-  </tr>
-</table>
+Current work includes the empirical comparison of:
 
----
+- TimesNet
+- PatchTST
+- LSTM / GRU
+- TCN
+- XGBoost
+- Random Forest
 
-### 🎓 Seeking PhD Opportunities / Quant Roles
+The research focuses on temporal dependencies, volatility regimes, risk-aware labeling, and realistic out-of-sample evaluation.
 
-I am actively looking for **fully funded PhD positions** in **Quantitative Finance**, **Computational Economics**, or **Financial Econometrics** where I can apply and expand my research in deep learning pipelines. I am also highly open to **Quantitative Researcher / Developer** roles in FinTech or DeFi.
+### Research Paper
 
-*   📧 **Email:** mohammadreza.akhlaghi@studenti.univr.it (or your personal email)
-*   💼 **LinkedIn:** [Mohammadreza Akhlaghi](https://www.linkedin.com/in/mohammadreza-akhlaghi-01210288/)
-*   📁 **Featured Research:** See my pinned repositories below.
+**Deep Sequence Architectures in High-Frequency Finance: Benchmarking TimesNet and Classical Machine Learning Across Volatility Regimes**
+
+SSRN:  
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7034100
+
+## Research & Technical Skills
+
+**Financial Econometrics**
+- Time-Series Analysis
+- Volatility Modeling
+- Regime Detection
+- Risk Modeling
+- Walk-Forward Evaluation
+
+**Machine Learning**
+- PyTorch
+- Scikit-learn
+- XGBoost
+- Classical ML
+- Deep Sequence Models
+- Transformers
+- LSTM / GRU
+- TimesNet
+- PatchTST
+
+**Computational Research**
+- Python
+- NumPy
+- Pandas
+- CuPy
+- GPU-accelerated computation
+- Reproducible experimentation
+- Git / GitHub
+
+## Selected Research Repositories
+
+### Deep Sequence Modeling for XAUUSD
+Research implementation of deep sequence models for high-frequency financial time-series analysis.
+
+### Machine Learning Baselines for XAUUSD
+Classical machine-learning benchmarks and evaluation pipelines for financial time-series research.
+
+### GPU-Accelerated Financial Time-Series Research
+Computational framework for scalable feature engineering and experimentation on large financial datasets.
+
+## Academic Background
+
+**M.Sc. Business Administration – Financial Management**  
+Yazd University, Iran
+
+**Graduate-Level Data Science Coursework — 87 ECTS**  
+University of Verona, Italy
+
+The Data Science programme was taught entirely in English.
+
+## Contact
+
+📧 mohammadreza.akhlaghi@studenti.univr.it
+
+🔗 LinkedIn: Mohammadreza Akhlaghi
